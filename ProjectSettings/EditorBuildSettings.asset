@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/1\xBABoss.unity"
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/WoodScene.unity
+    guid: 6143bf7241e934021aed1afc1b54a00b
+  - enabled: 1
+    path: Assets/Scenes/CaveScene.unity
+    guid: 075781b710a5243fe93728754c432d70
   m_configObjects: {}
