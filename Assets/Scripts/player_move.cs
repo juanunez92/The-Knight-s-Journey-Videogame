@@ -24,7 +24,7 @@ public class player_move : MonoBehaviour
 
     public void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey("k"))
         {
             if (useJump < numJump)
             {
