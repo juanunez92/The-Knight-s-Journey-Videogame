@@ -7,7 +7,7 @@ public class player_move : MonoBehaviour
 
     private Rigidbody2D rig;
     private SpriteRenderer spritePersonaje;
-    float fuerzaSalto = 4f;
+    float fuerzaSalto = 8f;
     int numJump = 1;
     int useJump;
     Animator anim;
