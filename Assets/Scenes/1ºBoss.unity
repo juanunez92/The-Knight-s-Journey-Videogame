@@ -1347,7 +1347,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1547527944, guid: 5236036acd17a460688006d3adadcafd, type: 3}
+  m_Sprite: {fileID: 1547527944, guid: e8ccd95be93a34d369b0b5c100c507a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1597,7 +1597,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436212409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 53.17233, y: -8.911548, z: -10}
+  m_LocalPosition: {x: 54.87233, y: -8.911548, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15063,7 +15063,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 53.16936, y: -9.379022, z: -10}
+  m_LocalPosition: {x: 54.8693, y: -9.389801, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17993,7 +17993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3368686530722825913, guid: 405730ef626b947afa1753f6cbcccdc9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 54
+      value: 55.7
       objectReference: {fileID: 0}
     - target: {fileID: 3368686530722825913, guid: 405730ef626b947afa1753f6cbcccdc9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31299,7 +31299,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1547527944, guid: 5236036acd17a460688006d3adadcafd, type: 3}
+  m_Sprite: {fileID: 1547527944, guid: e8ccd95be93a34d369b0b5c100c507a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -31678,7 +31678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1938394811, guid: 5236036acd17a460688006d3adadcafd, type: 3}
+  m_Sprite: {fileID: 1938394811, guid: e8ccd95be93a34d369b0b5c100c507a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
