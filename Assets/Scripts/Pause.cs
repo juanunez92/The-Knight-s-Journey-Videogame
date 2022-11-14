@@ -8,8 +8,8 @@ public class Pause : MonoBehaviour
     [SerializeField] private GameObject MenuPause;
     private bool keyPause=false;
 
-    public void PauseGame() {
-
+    public void PauseGame()
+    {
         keyPause = true;
         Time.timeScale = 0f;
         PauseButton.SetActive(false);

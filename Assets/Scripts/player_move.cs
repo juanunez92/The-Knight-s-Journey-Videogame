@@ -84,6 +84,12 @@ public class player_move : MonoBehaviour
 
 
     }
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Respawn")
+        {
+            transform.position = new Vector3(-14,-10 , 0);
+        }
+    }
 }
 
