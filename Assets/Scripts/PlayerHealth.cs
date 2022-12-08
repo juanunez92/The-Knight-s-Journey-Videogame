@@ -1,8 +1,9 @@
     using System.Collections;
     using System.Collections.Generic;
     using UnityEngine;
+    using UnityEngine.UI;
 
-    public class PlayerHealth : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
     {
 
 
@@ -14,7 +15,7 @@
         SpriteRenderer sprite;
         public float goBackHitX;
         public float goBackHitY;
-
+        public Image healthBar;
         Rigidbody2D rg;
 
 
@@ -30,6 +31,7 @@
         // Update is called once per frame
         void Update()
         {
+        healthBar.fillAmount = health / 100;
             if (health > maxh) {
 
                 health = maxh;
