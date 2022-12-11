@@ -11,6 +11,7 @@ public class EnemyMovement : MonoBehaviour
     public bool isStatic;
     public bool isWalker;
     public bool walksRight;
+    public bool waiting;
     public Transform wallCheck, pitCheck, groundCheck;
     public bool wallDetectec, pitDetected, isGround;
     public float detectionRadious;
@@ -18,6 +19,8 @@ public class EnemyMovement : MonoBehaviour
     public Transform pointA, pointB;
      public bool goToA, goToB;
     public bool isPatrol;
+    public float timeWaiting;
+    public bool isWaiting;
 
     // Start is called before the first frame update
     void Start()
@@ -71,17 +74,25 @@ public class EnemyMovement : MonoBehaviour
         if (isPatrol)
 
         {
-            anim.SetBool("idle", false);
             if (goToA)
             {
-                rb.velocity = new Vector2(-speed * Time.deltaTime, rb.velocity.y);
+                if (!isWaiting) {
+                    anim.SetBool("idle", false);
 
-                Debug.Log("hola2");
+                    rb.velocity = new Vector2(-speed * Time.deltaTime, rb.velocity.y);
+
+
+                }
 
 
                 if ((transform.position.x-pointA.position.x)< 0.2f)
                 {
-                    Debug.Log("hola");
+                    if (waiting)
+
+                    {
+                        StartCoroutine(isWait());
+
+                    }
                     Flip();
                     goToA = false;
                     goToB = true;
@@ -89,11 +100,24 @@ public class EnemyMovement : MonoBehaviour
             }
             if (goToB)
             {
+                if (!isWaiting)
+                {
+                    anim.SetBool("idle", false);
 
-                rb.velocity = new Vector2(speed * Time.deltaTime, rb.velocity.y);
+                    rb.velocity = new Vector2(speed * Time.deltaTime, rb.velocity.y);
+
+
+                }
                 if ((transform.position.x - pointB.position.x) > 0.2f)
 
                 {
+
+                    if (waiting)
+
+                    {
+                        StartCoroutine(isWait());
+
+                    }
                     Flip();
                     goToA = true;
                     goToB = false;
@@ -101,6 +125,18 @@ public class EnemyMovement : MonoBehaviour
             }
 
         }
+    }
+
+
+    IEnumerator isWait()
+    {
+        anim.SetBool("idle", true);
+        isWaiting = true;
+        Flip();
+        yield return new WaitForSeconds(timeWaiting);
+        isWaiting = false;
+        anim.SetBool("idle", false);
+        Flip();
     }
 
     public void Flip()

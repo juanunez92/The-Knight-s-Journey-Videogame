@@ -9,6 +9,7 @@ TagManager:
   - ground
   - weapon
   - enemy
+  - city
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - UI
   - BG
   - floor
-  - 
-  - 
+  - enemy
+  - city
   - 
   - 
   - 
