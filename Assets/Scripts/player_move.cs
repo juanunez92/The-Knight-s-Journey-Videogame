@@ -12,7 +12,9 @@ public class player_move : MonoBehaviour
     int useJump;
     Animator anim;
 
-    [SerializeField] private float velocidadPersonaje;
+    public static player_move instance;
+
+    [SerializeField] public float velocidadPersonaje;
 
     private void Awake()
     {
@@ -20,6 +22,7 @@ public class player_move : MonoBehaviour
         spritePersonaje = GetComponent<SpriteRenderer>();
         useJump = 0;
         anim = GetComponent<Animator>();
+        instance = this;
     }
 
     public void Jump()

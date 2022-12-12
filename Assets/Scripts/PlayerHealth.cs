@@ -17,10 +17,11 @@ public class PlayerHealth : MonoBehaviour
         public float goBackHitY;
         public Image healthBar;
         Rigidbody2D rg;
+        public static PlayerHealth instance;
 
 
-        // Start is called before the first frame update
-        void Start()
+    // Start is called before the first frame update
+    void Start()
         {
             health = maxh;
             material = GetComponent<blink>();

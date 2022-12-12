@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
+    public static EnemyScript instance;
+
+
+
     public string enemyname;
     public float healthPoints;
     public float speed;
