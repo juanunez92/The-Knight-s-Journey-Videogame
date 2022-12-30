@@ -18552,9 +18552,11 @@ MonoBehaviour:
   dialoguePanel: {fileID: 575110740}
   dialogue: {fileID: 1203482815}
   dialogueLines:
-  - aaksaldlkjasjlklkjaslkjdsakjlakdjalkdjalkdjalkdjaldkajdlakdjaldkajdlakdjalkdjasldkajdlaksdjalkdsjla
-  - salvanos
-  - Por fa
+  - Hello Knight, the city is in ruins. The wizards are blocking our access to the
+    forest and we can not hunt animals or harvest crops to feed our family.
+  - You can go left to access the forest or right to access the cave. In these places
+    you will find the magicians.
+  - Thank you Knight! Our hope is placed in you
 --- !u!1 &1124711743
 GameObject:
   m_ObjectHideFlags: 0
@@ -34569,8 +34571,10 @@ MonoBehaviour:
   dialoguePanel: {fileID: 575110740}
   dialogue: {fileID: 1203482815}
   dialogueLines:
-  - hola shur
-  - salvanos hostia
+  - Hello Knight, thank you for coming to help us. Since the wizards arrived, we
+    haven't been able to access the forest. We can't access the cave either because
+    it is full of monsters.
+  - Save us!
 --- !u!1 &2018622342
 GameObject:
   m_ObjectHideFlags: 0
