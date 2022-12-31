@@ -10,12 +10,14 @@ public class EnemyHealth : MonoBehaviour
     public bool setDeath;
     Rigidbody2D rb;
     public bool damaged;
+    private AudioSource audioSource;
 
     private void Awake()
     {
         enemy = GetComponent<EnemyScript>();
         animDeath = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
 
     }
 
@@ -29,6 +31,7 @@ public class EnemyHealth : MonoBehaviour
         if (collision.CompareTag("weapon") && !damaged)
         {
             enemy.healthPoints -= 2f;
+            audioSource.Play();
             StartCoroutine(DamageSp());
 
 

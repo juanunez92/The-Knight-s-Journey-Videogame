@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class foodRecover : MonoBehaviour
 {
+    [SerializeField] private AudioClip sound1;
 
     public float healthRecover;
 
@@ -12,7 +13,10 @@ public class foodRecover : MonoBehaviour
         if (collision.CompareTag("Player")) {
 
             collision.GetComponent<PlayerHealth>().health += healthRecover;
+            ControlSound.Instance.ejectSound(sound1);
             Destroy(gameObject);
             }
     }
+
+    
 }
