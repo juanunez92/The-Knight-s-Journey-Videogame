@@ -10,13 +10,14 @@ public class foodRecover : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player")) {
+        if (collision.CompareTag("Player"))
+        {
 
             collision.GetComponent<PlayerHealth>().health += healthRecover;
             ControlSound.Instance.ejectSound(sound1);
             Destroy(gameObject);
-            }
+        }
     }
 
-    
+
 }
