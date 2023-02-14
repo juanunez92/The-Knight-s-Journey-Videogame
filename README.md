@@ -31,11 +31,18 @@ Thank you for taking the time to read this introduction, and I hope you enjoy pl
 3. Enjoy it!
 
 ## Controls
-| asdf	|asd	|ads	| 
-|asd|asd|dsfd|
 
 
 ## Screenshots
+
+![menu](images/mainmenu.png)
+![tutorial](images/tutorial.png)
+![city](images/city.png)
+![forest](images/woodscene.png)
+![cave](images/caveboss.png)
+![cavegoblins](images/cavegoblins.png)
+
+
 
 
 ## Contributing
@@ -43,3 +50,11 @@ Thank you for taking the time to read this introduction, and I hope you enjoy pl
 I would like to thank and mention all the free resources I have been able to use in this project.
 
 [Luizmelo](https://luizmelo.itch.io/monsters-creatures-fantasy) - Monsters creatures fantasy
+[Luizmelo](https://luizmelo.itch.io/evil-wizard-2) - Evil Wizard 2
+[Luizmelo](https://luizmelo.itch.io/evil-wizard) - Evil Wizard
+[Szadiart](https://szadiart.itch.io/pixel-fantasy-caves) - Pixel Fantasy Caves
+[HenrySoftware](https://henrysoftware.itch.io/pixel-food) - Pixel Food
+[Cainos](https://cainos.itch.io/pixel-art-platformer-village-props) - Pixel Art Platformer Village Props
+[Aamatniekss](https://aamatniekss.itch.io/fantasy-knight-free-pixelart-animated-character) - Fantasy Knight Animated Character
+[Ansimuz](https://ansimuz.itch.io/gothicvania-town) - Gothicvania
+[Creativeking](https://creativekind.itch.io/flying-obelisk) - Flying Obelisk
