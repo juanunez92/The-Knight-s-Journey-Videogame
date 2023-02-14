@@ -15947,8 +15947,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -28, y: -30, z: 0}
-  m_Size: {x: 155, y: 30, z: 1}
+  m_Origin: {x: -28, y: -44, z: 0}
+  m_Size: {x: 155, y: 44, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -19915,6 +19915,10 @@ PrefabInstance:
     - target: {fileID: 3368686530722825913, guid: 405730ef626b947afa1753f6cbcccdc9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3368686530722825914, guid: 405730ef626b947afa1753f6cbcccdc9, type: 3}
+      propertyPath: speedKnight
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3368686530722825914, guid: 405730ef626b947afa1753f6cbcccdc9, type: 3}
       propertyPath: velocidadPersonaje

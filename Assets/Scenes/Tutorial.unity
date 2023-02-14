@@ -7896,6 +7896,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3368686530722825914, guid: 405730ef626b947afa1753f6cbcccdc9, type: 3}
+      propertyPath: speedKnight
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3368686530722825914, guid: 405730ef626b947afa1753f6cbcccdc9, type: 3}
       propertyPath: velocidadPersonaje
       value: 10
       objectReference: {fileID: 0}
