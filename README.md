@@ -1,11 +1,11 @@
 
 ![logoGame](images/intro.png)
 
-## The Knight's Journey - Videogame		:video_game:
+## The Knight's Journey - Videogame		:space_invader:
 
 I am pleased to present you my final project degree, an adventure game that I have developed and that I am now willing to share with the community.
 
-## Table of contents :page_facing_up:
+## Table of contents
 
 * [Gameplay](#gameplay)
 * [Installation](#installation)
@@ -15,7 +15,8 @@ I am pleased to present you my final project degree, an adventure game that I ha
 
 
 ## Gameplay
-:space_invader:
+
+
 In this game, you will embark on an exciting adventure through a fantastic world full of challenges and mystery. Your goal is to explore this world, interact with its inhabitants and discover the secrets it hides. Along the way, you will face difficult monsters and two final bosses.
 
 I do not rule out further developing the game to improve these parts where the game is worse.
@@ -24,14 +25,14 @@ Any feedback will be appreciated and used to improve and further develop the gam
 
 Thank you for taking the time to read this introduction, and I hope you enjoy playing my adventure game as much as I enjoyed creating it.
 
-## Installation	:computer:
+## Installation
 
 1. Download the game from the folder The-Knight-s-Journey-Videgame. Depending on your operating system, download it for macOS or Windows.
 2. Run the game.
 3. Enjoy it!
 
 
-## Screenshots :camera:
+## Screenshots
 
 ![menu](images/mainmenu.png)
 ![tutorial](images/tutorial.png)
@@ -43,7 +44,7 @@ Thank you for taking the time to read this introduction, and I hope you enjoy pl
 
 
 
-## Contributing :pray:
+## Contributing
 
 I would like to thank and mention all the free resources I have been able to use in this project.
 
