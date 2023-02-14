@@ -11,6 +11,7 @@ I am pleased to present you my final project degree, an adventure game that I ha
 * [Installation](#installation)
 * [Controls](#controls)
 * [Screenshots](#screenshots)
+* [Trailer](#trailer)
 * [Contributing](#contributing)
 
 
@@ -40,8 +41,6 @@ Thank you for taking the time to read this introduction, and I hope you enjoy pl
 ![forest](images/woodscene.png)
 ![cave](images/caveboss.png)
 ![cavegoblins](images/cavegoblins.png)
-
-
 
 
 ## Contributing
