@@ -14,7 +14,7 @@ I am pleased to present you my final project degree, an adventure game that I ha
 * [Contributing](#contributing)
 
 
-## Gameplay :space_invaders:
+## Gameplay :space_invader:
 
 In this game, you will embark on an exciting adventure through a fantastic world full of challenges and mystery. Your goal is to explore this world, interact with its inhabitants and discover the secrets it hides. Along the way, you will face difficult monsters and two final bosses.
 
