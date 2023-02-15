@@ -5,6 +5,8 @@
 
 I am pleased to present you my final project degree, an adventure game that I have developed and that I am now willing to share with the community.
 
+[itch.io Link](https://juanunez92.itch.io/the-knights-journey) - You can also find it in Itch.io
+
 ## Table of contents
 
 * [Gameplay](#gameplay)
@@ -60,7 +62,7 @@ I would like to thank and mention all the free resources I have been able to use
 
 ## Credits
 
-[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juanunez92)[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jnuneznun/)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juanunez92)			[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jnuneznun/)
 
 
 
